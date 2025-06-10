@@ -1,0 +1,47 @@
+h2{
+    font-size: 30px;
+    color:brown;
+}
+h1{
+    color:red;
+}
+body{
+    background-color:darkgrey;
+}
+
+.para1{
+    color:blueviolet;
+    font-weight: 600px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 20px;
+}
+.para2{
+    color:brown;
+    font-size: 30px;
+    font-family: cursive;
+}
+p{
+    background-color: lightpink;
+}
+.text{
+    background-color:lightsalmon;
+}
+#text{
+    background-color: green;
+}
+.btn{
+    padding: 3px 6px;
+    font-weight: 300;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 3px;
+}
+.btn-green{
+    color:bisque;
+    background-color: black;
+}
+.btn-darkslateblue{
+    color:blanchedalmond;
+    background-color: brown;
+}

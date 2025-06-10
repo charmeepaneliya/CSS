@@ -1,0 +1,45 @@
+*{
+    font-family: cursive;
+    color:brown;
+    box-sizing: border-box;
+    margin: 0;
+    padding:0cap
+}
+
+.box{
+    background-color: aquamarine;
+    width: 300px;
+    height: 300px;
+    margin: 20px 30px 40px 50px;
+    padding:20px 10px 5px 3px;
+}
+.h1{
+    color: blueviolet;
+}
+
+.box1{
+    background-color: bisque;
+    width: 500px;
+    height: 500px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+
+    border-radius: 50%;
+}
+
+.pic{
+    width: 300px;
+    border:10px dotted lightskyblue;
+    border-radius: 50px;
+    
+}
+
+.bx{
+    width: 300px;
+    height:400px;
+    border:4px dashed green;
+    border-radius: 50px;
+    border-color:darkslategray;
+}
