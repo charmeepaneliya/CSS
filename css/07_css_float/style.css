@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+.container{
+    width: 1000px;
+    margin: auto;
+    border: 1px solid green;
+}
+
+.box{
+    height:100px;
+    width: 100px;
+
+}
+
+.box1{
+    background-color: brown;
+    float: left;
+}
+
+.box2{
+    background-color: coral;
+    float: left;
+}
+
+.cl{
+    clear: both;
+}
