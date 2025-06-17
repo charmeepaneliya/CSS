@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.chess{
+    
+    margin:400px;
+    background-color: #ffd181;
+    padding: 75px;
+   
+    
+    
+}
+
+.container{
+    width:fit-content;
+    border:15px  solid#817716;
+    margin: auto;
+}
+
+.box{
+    width: 110px;
+    height: 110px;
+    float: left; 
+    text-align: center;
+    font-size: 50px;
+    line-height: 100px;
+}
+.box1{
+    background-color: #ffd181;
+    
+}
+
+.box2{
+    background-color:#817716;
+}   
+
+.cl{
+    clear: both;
+}
+
+.ch1{
+    letter-spacing: 45px;
+    font-size: 30px;
+    color: #817716;
+}
+
+.ch2{
+    letter-spacing: 45px;
+    font-size: 30px;
+    color: #817716;
+}
