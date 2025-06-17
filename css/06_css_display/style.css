@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+.head1{
+    display: inline;
+}
+
+.head2{
+    display: inline;
+    width: 500px;
+    height: 200px;
+    background-color: azure;
+}
+
+.bold{
+    display: block;
+}
+
+small{
+    display: block;
+    height: 500px;
+    width: 200px;
+    border: 1px solid green;
+}
+
+.box-block{
+    margin: auto;
+    width: fit-content;
+    padding:10px;
+    
+}
+
+.box{
+    display: inline-block;
+    width: 200px;
+    height: 250px;
+    margin:auto;
+    /*border: 1px solid black;*/
+    border-radius: 30px;
+    box-shadow: rgba(28, 112, 182, 0.56) 0px 22px 70px 4px;
+    padding: 30px 30px 30px 30px
+
+}
