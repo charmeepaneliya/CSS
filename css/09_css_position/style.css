@@ -1,0 +1,39 @@
+*{
+    font-size: 30px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+}
+
+.relative{
+    background-color: lightblue;
+    position: relative;
+    top:-40px;
+    left:200px;
+}
+
+.absolute{
+    background-color: rgb(223, 173, 230);
+    position:absolute;
+    left:40px;
+    bottom:200px;
+}
+
+.fixed{
+    background-color: rgb(173, 230, 199);
+    position:fixed;
+    left:1000px;
+    top:400px;
+}
+
+.sticky{
+    background-color: rgb(173, 230, 199);
+    position:sticky;
+    top:70px;
+    bottom:60px;
+}
