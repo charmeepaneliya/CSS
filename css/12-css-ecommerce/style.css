@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+     font-family: "Margarine", sans-serif;
+
+}
+
+header{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; 
+    height: 150PX;
+    background-color:rgb(211, 195, 221);
+    padding-top: 20PX;
+    background: url('img/back3.avif'),linear-gradient(rgba(0, 0, 0, 0.548) rgba(255, 255, 255, 0.479));
+    background-position: 50%;
+
+}
+
+
+  
+
+
+.logo{
+    float: left;  
+    font-size: 10px;
+    color:  indigo;
+}
+
+
+
+.logo img{
+    height: 100px;
+    width: 100px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(226, 172, 36) ;
+}
+
+
+
+.navbar{
+    max-width: 1320px;
+    margin: auto;
+    
+
+}
+
+.nav{
+    float: right;
+    margin:auto;
+}
+
+.nav-link{
+    background-color: rgb(226, 172, 36);
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 8px;
+    letter-spacing: 1px;
+    font-weight: 500px;
+    border-radius: 10px;
+    
+
+
+}
+
+.nav-link:hover{
+    background-color: indigo;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.nav-btn{
+    background-color:  rgb(123, 77, 155);
+    color: white;
+    padding: 3px 6px;
+    border-radius: 50%;
+}
+
+.nav-btn img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.nav-btn:hover{
+    background-color:  indigo;
+}
+
+.nav-btn2{
+     height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    
+}
+.nav-btn2:hover{
+    background-color:  indigo;
+    color: white;
+}
