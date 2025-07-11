@@ -1,0 +1,39 @@
+.box > p{
+    color: rgb(57, 30, 210);
+}
+
+.box > p:first-child{
+    background-color: lightskyblue;
+}
+
+.list li:first-child{
+    color: rgb(31, 119, 192);
+    text-decoration: underline;
+}
+.box h4::first-letter{
+    color: rgb(4, 97, 4);
+    font-size: 50px;
+}
+.box h4::first-line{
+    background-color: rgb(238, 224, 144);
+    color: rgb(2, 99, 2);
+}
+.list li:last-child{
+    text-decoration: line-through;
+}
+
+.list li:nth-child(2n){
+    background-color: lightsalmon;
+}
+/* .list li:nth-child(2n-1){
+    background-color: lightsalmon;
+} */
+
+.table1{
+    box-shadow: 0px 0px 0px 5px black;
+    padding: 20px;
+    font-size: 30px;
+}
+.table1 tr:nth-child(2n-1){
+    background-color: rgba(148, 128, 240, 0.158);
+}
