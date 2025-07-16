@@ -216,6 +216,10 @@ flex-direction: column;
 .foot1{
     width: 15%;
 }
+.foot1 img{
+    width: 50px;
+    margin-bottom: 30px;
+}
 .foot1 p{
     color: ghostwhite;
 }
