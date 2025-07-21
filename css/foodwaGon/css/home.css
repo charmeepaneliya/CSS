@@ -1,0 +1,74 @@
+.container{
+    max-width: 100%;
+    background-color: #ffb30e;
+    margin-top: 60px;
+    height: auto;
+    background-blend-mode: overlay;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.title{
+    margin-top: 100px;
+    text-align: left;
+    margin-left: 40px;
+}
+.title h3{
+     color: #F9FAFD;
+     font-size: 70px;
+     margin-left: 180px;
+     font-weight: 1200;
+    
+}
+.title p{
+    margin-left: 180px;
+    font-size: 30px;
+   font-weight: 700;
+   color: #616161;
+    
+}
+.form{
+    width: 600px;
+    padding: 20px;
+    background-color: #fffefe;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 150px;
+    display: block;
+    
+}
+button{
+    color:gray;
+    background-color:  #fffefe;
+    font-weight: 10px;
+    padding: 13px;
+    border: none;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow:rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;;
+}
+button:hover{
+    color: black;
+}
+button:focus{
+     color: #f17228;
+     background-color: #fde9de;
+}
+/* .ri-motorbike-fill{
+    color: #f17228;
+}
+.ri-shopping-bag-fill{
+     color: #f17228;
+} */
+.img{
+        
+    overflow: clip;
+    margin-left: 100px;
+    margin-top: 100px;
+   
+}
+.img:hover{
+    transform: translateY(-2.1rem);
+    transition: all 0.9s;
+    
+}
