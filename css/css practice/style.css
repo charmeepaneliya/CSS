@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px;
+    background-color: bisque;
+}
+.link{
+    padding: 5px;
+    font-size: 20px;
+}
+.grid-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:10px;
+    padding: 20px;
+     background: #f5f5f5;
+}
+.item{
+     background: #4b7bec;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 8px;
+}
+
+.cards {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.box {
+  background: #55efc4;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+
+.card {
+  width: 300px;
+  display: grid;
+  grid-template-columns: 1fr;
+  
+  /* Areas define karna */
+  grid-template-areas:
+    "image"
+    "title"
+    "desc"
+    "button";
+
+  gap: 10px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Har item ko grid-area assign */
+.card-img {
+  grid-area: image;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card-title {
+  grid-area: title;
+  font-size: 20px;
+  margin: 0;
+}
+
+.card-desc {
+  grid-area: desc;
+  color: #555;
+}
+
+.card-btn {
+  grid-area: button;
+  padding: 10px;
+  border: none;
+  background: #4b7bec;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.btn1{
+  background-color: #1ABC9C;
+  padding:20px;
+  color:white;
+}
+.btn2{
+  background-color: #F39C12;
+  padding:20px;
+  color:white;
+}
+.btn3{
+  background-color: #8E44AD;
+ padding:20px;
+  color:white;
+}
+.btn4{
+  background-color: #27AE60;
+  padding:20px;
+  color:white;
+}
+.btn5{
+  background-color: #2980B9;
+  padding:20px;
+  color:white;
+}
+.btn6{
+  background-color: #F1C40F;
+  padding:20px;
+  color:white;
+}
+.btn7{
+  background-color: #E74C3C;
+  padding:20px;
+  color:white;
+}
+.btn8{
+  background-color: #3498DB;
+  padding:20px;
+  color:white;
+}
+.btn9{
+  background-color: #F1C40F;
+  padding:20px;
+  color:white;
+}
+.btn10{
+  background-color: #9B59B6;
+  padding:20px;
+  color:white;
+}
+.btn11{
+  background-color: #2980B9;
+  padding:20px;
+  color:white;
+}
+.btn12{
+  background-color: #2ECC71;
+  padding:20px;
+  color:white;
+}
+.btn13{
+  background-color: #E67E22;
+  padding:20px;
+  color:white;
+}
+.btn14{
+  background-color: #16A085;
+  padding:20px;
+  color:white;
+}
+.btn15{
+  background-color: #FF6B6B;
+  padding:20px;
+  color:white;
+}
+.btn16{
+  background-color: #5DADE2;
+  padding:20px;
+  color:white;
+}
+.btn17{
+  background-color: #9B95B6;
+  padding:20px;
+  color:white;
+}
+.btn18{
+  background-color: #1ABC9C;
+  padding:20px;
+  color:white;
+}
+.btn19{
+  background-color: #C0392B;
+  padding:20px;
+  color:white;
+}
+.btn20{
+  background-color: #F1C40F;
+  padding:20px;
+  color:white;
+}
+
+#btn > button{
+  padding:20px;
+  color:white;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
